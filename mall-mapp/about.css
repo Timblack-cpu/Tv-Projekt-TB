@@ -1,36 +1,104 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(254, 254, 254);
 }
 
-header{
-   
+header {
+
     background-color: darkslateblue;
     color: white;
-    margin:auto;
+    margin: auto;
     padding: 1rem;
     display: flex;
     justify-content: center;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
-  
+
     background-color: darkslateblue;
     margin: auto;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     padding: 1rem;
-    
+
 }
 
-nav a:hover{
+nav a:hover {
     background-color: lightblue;
+}
+
+main{
+    background-color: rgb(254, 254, 254);;
+    max-width: 60rem;
+    margin: auto;
+}
+
+.rubrik {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid darkslategray 2px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+
+.card {
+    max-width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    border: solid black 1px;
+    background-color: white;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+
+}
+
+.card img {
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+
+.card a {
+    padding: 0.1rem;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
 }

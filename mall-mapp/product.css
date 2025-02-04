@@ -62,12 +62,13 @@ main h1{
 
 
 .card{
-    width: 20rem;
+    max-width: 20rem;
     height: 25rem;
     border-radius: 1rem;
     border: solid black 1px;
     background-color: white;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    
 }
 
 .card img{
@@ -77,3 +78,26 @@ main h1{
     display: flex;
     justify-content: center;
 }
+
+.card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card a{
+    padding: 0.1rem;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.card a:hover{
+    background-color: lightblue;
+}
+
