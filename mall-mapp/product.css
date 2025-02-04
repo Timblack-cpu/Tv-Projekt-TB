@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(254, 254, 254);
+}
+
 header{
-    max-width: 50rem;
-    background-color: blue;
+   
+    background-color: darkslateblue;
     color: white;
     margin:auto;
     padding: 1rem;
@@ -15,8 +19,8 @@ header{
 nav{
     display: flex;
     justify-content: space-evenly;
-    max-width: 50rem;
-    background-color: blue;
+  
+    background-color: darkslateblue;
     margin: auto;
 }
 
@@ -29,4 +33,47 @@ nav a{
 
 nav a:hover{
     background-color: lightblue;
+}
+
+main{
+    background-color: rgb(254, 254, 254);;
+    max-width: 60rem;
+    margin: auto;
+}
+
+main h1{
+    color: darkslategray;
+}
+
+.rubrik{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid darkslategray 2px;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+
+.card{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    border: solid black 1px;
+    background-color: white;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.card img{
+    max-width: 90%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }

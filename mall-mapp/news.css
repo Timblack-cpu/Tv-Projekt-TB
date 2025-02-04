@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(254, 254, 254);
+}
+
 header{
-    max-width: 50rem;
-    background-color: blue;
+   
+    background-color: darkslateblue;
     color: white;
     margin:auto;
     padding: 1rem;
@@ -15,8 +19,8 @@ header{
 nav{
     display: flex;
     justify-content: space-evenly;
-    max-width: 50rem;
-    background-color: blue;
+  
+    background-color: darkslateblue;
     margin: auto;
 }
 
