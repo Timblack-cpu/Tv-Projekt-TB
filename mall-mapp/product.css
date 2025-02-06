@@ -49,6 +49,7 @@ main h1{
     display: flex;
     justify-content: center;
     border-bottom: solid darkslategray 2px;
+    color: darkslategray;
 }
 
 .cardcontainer{

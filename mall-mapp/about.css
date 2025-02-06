@@ -45,6 +45,7 @@ main{
     display: flex;
     justify-content: center;
     border-bottom: solid darkslategray 2px;
+    color: darkslategray;
 }
 
 .cardcontainer {
@@ -87,7 +88,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem;
+    margin: 0.6rem;
 }
 
 
@@ -102,3 +103,4 @@ main{
     text-decoration: none;
     border-radius: 1rem;
 }
+
